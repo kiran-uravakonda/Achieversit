@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .logo {
+            text-decoration: none;
+
+        }
+
+        .logo::after {
+            color: orange;
+            content: "IT";
+
+        }
+
+        .navbar {
+            margin: auto;
+            padding: 30px 0;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .navbar ul li {
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .icon1 {
+            font-size: large;
+            padding: 3px;
+            background-color: aqua;
+
+        }
+
+        .icon1 a {
+            text-decoration: none;
+        }
+
+        .icon2 {
+            font-size: large;
+            padding: 3px;
+            background-color: aqua;
+        }
+
+        .icon2 a {
+            text-decoration: none;
+        }
+
+        .icon3 {
+            font-size: large;
+            padding: 3px;
+            background-color: aqua;
+        }
+
+        .icon3 a {
+            text-decoration: none;
+        }
+
+        #banner {
+            height: 50vh;
+           text-align: center;
+           padding: 50px ;
+           margin: 0px 60px;
+            background-color: gray;
+            background-image: url("./images/banner.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        #banner input{
+           
+            padding: 5px 10px;
+            border-width: 2px;
+        }
+
+        #banner .forms {
+  width: 90%;
+  margin-left:2%;
+  margin-right: 0%;
+  /* font-size: large; */
+  
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- navbar part -->
+        <div class="navbar">
+            <a href="#" class="logo">Achievers</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">categories</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+            <ul>
+                <span class="material-symbols-outlined icon1">
+                    <a href="#">search </a>
+                </span>
+                <span class="material-symbols-outlined icon2">
+                    <a href="#">garden_cart</a>
+                </span>
+                <span class="material-symbols-outlined icon3">
+                    <a href="#">person</a>
+                </span>
+            </ul>
+        </div>
+
+        <!-- home part -->
+
+        <div id="banner">
+            
+            <h1>Fresh and <span style="color: orangered;">Organic</span> Products For Your</h1> <br>
+             <p >Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam  <br>
+                Libero Nostrum Veniam Facere Tempore Nisi.</p> <br>
+                <form class="forms">
+                <a href="#"><input  type="button" value="Shop Now"> </a>
+                </form>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
