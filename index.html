@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />           
+
     <style>
         * {
             margin: 0px;
@@ -15,10 +18,12 @@
 
         .container {
             width: 100%;
+            background-color: gray;
         }
 
         .logo {
             text-decoration: none;
+            font-size: 20px;
 
         }
 
@@ -81,9 +86,9 @@
 
         #banner {
             height: 50vh;
-           text-align: center;
-           padding: 50px ;
-           margin: 0px 60px;
+            text-align: center;
+            padding: 50px;
+            margin: 0px 60px;
             background-color: gray;
             background-image: url("./images/banner.jpg");
             background-position: center;
@@ -91,20 +96,342 @@
             background-size: cover;
             position: relative;
         }
-        #banner input{
-           
+
+        #banner input {
+
             padding: 5px 10px;
             border-width: 2px;
         }
 
         #banner .forms {
-  width: 90%;
-  margin-left:2%;
-  margin-right: 0%;
-  /* font-size: large; */
+            width: 90%;
+            margin-left: 2%;
+            margin-right: 0%;
+            /* font-size: large; */
+
+        }
+
+        .Features {
+            text-align: center;
+            margin: 100px;
+
+        }
+
+        .features1 {
+            /* position: relative; */
+            /* height: 200px; */
+            /* width: 200px; */
+            /* margin: 100px; */
+            /* padding: 10px; */
+            /* border: 1px solid gray; */
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+            justify-content: center;
+            /* align-content: center; */
+        }
+
+        #image1 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #image2 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+
+
+        }
+
+        #image3 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+
+
+        }
+
+        .Products {
+            text-align: center;
+            margin: 100px;
+
+        }
+
+        .products1 {
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-template-rows: 300px 300px;
+            grid-gap: 20px;
+            justify-content: center;
+        }
+
+        #cucumber {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Watermelon {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Banana {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Coriander {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Dragon {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Capsicum {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Tomato {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        #Veg-Combo {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-clip: initial;
+            background-color: white;
+        }
+
+        .checked {
+            color: orange;
+        }
+
+
+        .categories {
+            text-align: center;
+            margin: 100px;
+
+        }
+
+        .categories1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto;
+            grid-gap: 20px;
+            justify-content: center;
+        }
+
+        #vegitables {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+        #meat {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+        #fresh {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+        #dairy {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+
+
+        .reviews {
+            text-align: center;
+            margin: 100px;
+
+        }
+
+        .reviews1 img {
+            border-radius: 50%;
+        }
+
+        .reviews1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto;
+            grid-gap: 20px;
+            justify-content: center;
+        }
+
+        #john1 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+        #john2 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+        #john3 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+        #john4 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+
+
+
+
+        .blogs {
+            text-align: center;
+            margin: 100px;
+
+        }
+
+
+        .blogs1 {
+            display: grid;
+            grid-template-columns: 400px 400px 400px 400px;
+            grid-template-rows: auto;
+            grid-gap: 20px;
+            /* justify-content: center; */
+           
+        }
+        .main_div{
+            float: right;
+        }
+
+        .main_div .icon_div {
+  display: inline;
+  
   
 }
+.main_div .text_div {
+  display: inline;
+ 
+}
 
+.another_div{
+            float: left;
+        }
+
+        .another_div .icon_div {
+  display: inline;
+  
+  
+}
+.another_div .text_div {
+  display: inline;
+ 
+}
+.blogs hr{
+     border: 1px solid gray;
+     margin:10px 0px 10px 0px;
+}
+
+        #fresh1 {
+
+            padding: 30px;
+
+            border: 2px solid red;
+            background-color: white;
+
+        }
+
+
+        #fresh2 {
+
+            padding: 30px;
+
+            border: 2px solid red;
+            background-color: white;
+
+        }
+
+        #fresh3 {
+
+            padding: 30px;
+            border: 2px solid red;
+            background-color: white;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .social>i {
+            background-color: #f1f1f1;
+            margin: 2px;
+            padding: 10px;
+            font-size: 20px;
+        }
+       footer .icons i{
+        color: orange;
+        /* display: block; */
+       }
+
+       footer .links i{
+        color: orange;
+        
+       }
+
+
+       footer .payment input {
+        display:block;
+       }
+      
+       
     </style>
 </head>
 
@@ -138,18 +465,464 @@
         <!-- home part -->
 
         <div id="banner">
-            
+
             <h1>Fresh and <span style="color: orangered;">Organic</span> Products For Your</h1> <br>
-             <p >Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam  <br>
+            <p >Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam <br>
                 Libero Nostrum Veniam Facere Tempore Nisi.</p> <br>
-                <form class="forms">
-                <a href="#"><input  type="button" value="Shop Now"> </a>
-                </form>
+            <form class="forms">
+                <a href="#"><input type="button" value="Shop Now"> </a>
+            </form>
 
 
         </div>
 
+        <!-- Features -->
+
+        <section class="Features">
+            <h1>Our Features</h1> <br>
+            <div class="features1">
+
+                <div id="image1">
+                    <img src="./images/feature-img-1.png" alt="image1">
+                    <h1>Fresh And Organic</h1> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deserunt,Earum!</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Read More">
+                    </a>
+                </div>
+
+                <div id="image2">
+                    <img src="./images/feature-img-2.png" alt="image2">
+                    <h1>Free Delivery</h1> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deserunt,Earum!</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Read More">
+                    </a>
+                </div>
+
+
+
+                <div id="image3">
+                    <img src="./images/feature-img-3.png" alt="image3">
+                    <h1>Easy Payments</h1> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deserunt,Earum!</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Read More">
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <!-- Products -->
+
+        <section class="Products">
+            <h1>Our Products</h1> <br>
+            <div class="products1">
+
+                <div id="cucumber">
+                    <img src="./images/product-1.png" alt="image1" width="150px">
+                    <h1>Cucumber</h1> <br>
+                    <p>&#8377; 24</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <br>
+
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+                <div id="Watermelon">
+                    <img src="./images/product-2.png" alt="image2" width="150px">
+                    <h1>Watermelon</h1> <br>
+                    <p>&#8377; 24</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+
+
+                <div id="Banana">
+                    <img src="./images/product-3.png" alt="image3" width="150px">
+                    <h1>Banana</h1> <br>
+                    <p>&#8377; 19</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+
+                <div id="Coriander">
+                    <img src="./images/product-4.png" alt="image1" width="150px">
+                    <h1>Coriander</h1> <br>
+                    <p>&#8377; 25</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+                <div id="Dragon">
+                    <img src="./images/product-5.png" alt="image2" width="150px">
+                    <h1>Dragon Fruit</h1> <br>
+                    <p>&#8377; 29</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+
+
+                <div id="Capsicum">
+                    <img src="./images/product-6.png" alt="image3" width="150px">
+                    <h1>Capsicum</h1> <br>
+                    <p>&#8377; 39</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+
+
+
+                <div id="Tomato">
+                    <img src="./images/product-7.png" alt="image2" width="150px">
+                    <h1>Tomato</h1> <br>
+                    <p>&#8377; 29</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+
+
+                <div id="Veg-Combo">
+                    <img src="./images/product-8.png" alt="image3" width="150px">
+                    <h1>Veg-Combo</h1> <br>
+                    <p>&#8377; 89</p> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Add To Cart">
+                    </a>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+
+        <!-- categories -->
+
+        <section class="categories">
+            <h1>Product Categories</h1> <br>
+            <div class="categories1">
+
+                <div id="vegitables">
+                    <img src="./images/cat-1.png" alt="image1">
+                    <h1>Vegitables</h1> <br>
+                    <p>Upto 45% Off</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Shop Now">
+                    </a>
+                </div>
+
+                <div id="fresh">
+                    <img src="./images/cat-2.png" alt="image2">
+                    <h1>Fresh Fruits</h1> <br>
+                    <p>Upto 45% Off</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Shop Now">
+                    </a>
+                </div>
+
+
+
+                <div id="dairy">
+                    <img src="./images/cat-3.png" alt="image3">
+                    <h1>Dairy Products</h1> <br>
+                    <p>Upto 45% Off</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Shop Now">
+                    </a>
+                </div>
+
+                <div id="meat">
+                    <img src="./images/cat-4.png" alt="image3">
+                    <h1>Fresh Meat</h1> <br>
+                    <p>Upto 45% Off</p> <br>
+                    <a href="#"><input style="  padding: 5px 10px;border-width: 2px;" type="button" value="Shop Now">
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- reviews -->
+
+        <section class="reviews">
+            <h1>Customer Review</h1> <br>
+            <div class="reviews1">
+
+                <div id="john1">
+                    <img src="./images/pic-1.png" alt="image1"> <br> <br>
+                    <p>Lorem Ipsum Dolor Sit,<br> Amet Consectetur Adipisicing Elit. Unde Sunt <br> Fugiat Dolore Ipsum
+                        Id Est Maxime Ad <br> Tempore Quasi Tenetur. </p> <br>
+                    <h1>John Deo</h1><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+
+                </div>
+
+                <div id="john2">
+                    <img src="./images/pic-2.png" alt="image2"> <br> <br>
+                    <p>Lorem Ipsum Dolor Sit,Amet <br> Consectetur Adipisicing Elit. Unde Sunt <br> Fugiat Dolore Ipsum
+                        Id Est Maxime Ad <br> Tempore Quasi Tenetur. </p> <br>
+                    <h1>John Deo</h1> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+
+                </div>
+
+
+
+                <div id="john3">
+                    <img src="./images/pic-3.png" alt="image3"> <br> <br>
+                    <p>Lorem Ipsum Dolor Sit,<br> Amet Consectetur Adipisicing Elit. Unde Sunt <br> Fugiat Dolore Ipsum
+                        Id Est Maxime Ad <br> Tempore Quasi Tenetur. </p> <br>
+                    <h1>John Deo</h1> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+
+                </div>
+
+                <div id="john4">
+                    <img src="./images/pic-4.png" alt="image3"> <br> <br>
+                    <p>Lorem Ipsum Dolor Sit,<br> Amet Consectetur Adipisicing Elit. Unde Sunt <br> Fugiat Dolore Ipsum
+                        Id Est Maxime Ad <br> Tempore Quasi Tenetur. </p> <br>
+                    <h1>John Deo</h1> <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="color: orange;"></span>
+
+                </div>
+
+
+            </div>
+        </section>
+
+          <!-- Blogs -->
+
+        <section class="blogs">
+            <h1>Our Blogs</h1> <br>
+            <div class="blogs1">
+
+                <div id="fresh1">
+                    <img  src="./images/blog-1.jpg" alt="image1" width="300px"> <br> <br>
+                   
+
+
+
+                  <div class="main_div">
+                    <div class="icon_div">
+                        <span><i class="fa fa-calendar" style="color: orange;"></i></span>
+                      </div>
+                      <div class="text_div">
+                        <span>1st May,2021</span><br>
+                        </div>   
+                  </div>  
+
+                  <div class="another_div">
+                    <div class="icon_div">
+                        <span><i class="fa fa-user" style="color: orange;"></i></span>
+                      </div>
+                      <div class="text_div">
+                        <span>By User</span><br>
+                        </div>   
+                  </div>  <br>
+
+                        <hr>
+
+
+
+
+                    <h3 style="text-align: left;">Fresh and Organic Vegitables And Fruits</h3> <br>
+                    <p style="text-align: left; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.<br> Veniam,Expedita.</p> <br>
+                    <a href="#" ><input style="  padding: 5px 10px;border-width: 2px; float: left;" type="button" value="Read More"></a>
+                </div>
+
+                <div id="fresh2">
+                    <img  src="./images/blog-2.jpg" alt="image1" width="300px"> <br> <br>
+                    
+                  <div class="main_div">
+                    <div class="icon_div">
+                        <span><i class="fa fa-calendar" style="color: orange;"></i></span>
+                      </div>
+                      <div class="text_div">
+                        <span>1st May,2021</span><br>
+                        </div>   
+                  </div>  
+
+                  <div class="another_div">
+                    <div class="icon_div">
+                        <span><i class="fa fa-user" style="color: orange;"></i></span>
+                      </div>
+                      <div class="text_div">
+                        <span>By User</span><br>
+                        </div>   
+                  </div>  <br>
+
+                        <hr>
+
+                    <h3 style="text-align: left;">Fresh and Organic Vegitables And Fruits</h3> <br>
+                    <p style="text-align: left; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.<br> Veniam,Expedita.</p> <br>
+                    <a href="#" ><input style="  padding: 5px 10px;border-width: 2px; float: left;" type="button" value="Read More"></a>
+                   </div>
+
+
+
+                <div id="fresh3">
+                    <img src="./images/blog-3.jpg" alt="image3" width="300px"> <br> <br>
+                    
+                  <div class="main_div">
+                    <div class="icon_div">
+                        <span><i class="fa fa-calendar" style="color: orange;"></i></span>
+                      </div>
+                      <div class="text_div">
+                        <span>1st May,2021</span><br>
+                        </div>   
+                  </div>  
+
+                  <div class="another_div">
+                    <div class="icon_div">
+                        <span><i class="fa fa-user" style="color: orange;"></i></span>
+                      </div>
+                      <div class="text_div">
+                        <span>By User</span><br>
+                        </div>   
+                  </div>  <br>
+
+                        <hr>
+
+                    <h3 style="text-align: left;">Fresh and Organic Vegitables And Fruits</h3> <br>
+                    <p style="text-align: left; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.<br> Veniam,Expedita.</p> <br>
+                    <a href="#" ><input style="  padding: 5px 10px;border-width: 2px; float: left;" type="button" value="Read More"></a>
+                
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+
+
     </div>
+
+    <footer>
+        <div> 
+            <a href="#" class="logo">Achievers</a> <br> <br>
+            <p>Lorem Ipsum Dolor,Sit Amet Consectetur <br> Adipisicing Elit. Adiquam Saepe.</p> <br>
+            <div class="social">
+                <i class="fa fa-facebook-f "></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin-square"></i>
+            </div>
+        </div>
+
+
+        <div class="icons"> 
+            <h1 style="color: blue;">Contact Info</h1> <br>
+            <i class='fa-solid fa-phone-flip'></i> 
+            <span>+123-456-7890</span>  <br> <br>
+            <i class='fa-solid fa-phone-flip'></i> 
+            <span>+111-222-3333</span> <br> <br>
+            <i class="fa fa-envelope"></i>
+            <span>achieversit@gmail.com</span> <br> <br>
+            <i class="fa fa-map-marker"></i>
+            <span>Bangalore,India - 12345 </span>
+             
+        </div>
+
+
+
+        <div class="links">
+            <h1 style="color: blue;">Quick Links</h1> <br>
+            <i class="fa fa-arrow-right"></i>
+            <span>Home</span> <br> <br>
+            <i class="fa fa-arrow-right"></i>
+            <span>Features</span> <br> <br>
+            <i class="fa fa-arrow-right"></i>
+            <span>Products</span> <br> <br>
+            <i class="fa fa-arrow-right"></i>
+            <span>Categories</span> <br> <br>
+            <i class="fa fa-arrow-right"></i>
+            <span>Review</span> <br> <br>
+            <i class="fa fa-arrow-right"></i>
+            <span>Blogs</span>
+        </div>
+
+
+        <div class="payment">
+            <h1 style="color: blue;">Newsletter</h1>  <br>
+            <p>Subscribe For Latest Updates</p> <br>
+            <input  style="background-color: rgba(128, 128, 128, 0.17);"  type="email" placeholder="your email"> <br>
+            <input style="padding: 5px 10px;border-width: 2px;" type="button" value="Subscribe"> <br>
+            <img src="./images/payment.png" alt="payment">
+        </div>
+
+    </footer>
+
+    <hr> <br>
+    <p align="center">created by <span style="color:orange">Mr.Kiran U</span>| All Rights Reserved</p>
 
 </body>
 
